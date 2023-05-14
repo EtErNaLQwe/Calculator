@@ -9,6 +9,3 @@ def delenie(z, x):
   return z / x
  except (TypeError, ValueError, ZeroDivisionError):
    return "надо использовать цифры и делить на ноль нельзя"
-   
-print(plus(3, 6))
-print(delenie(9, 0))
