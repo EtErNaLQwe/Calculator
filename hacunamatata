@@ -1,0 +1,12 @@
+def hacynanamatata(a, b):
+  try:
+    return a - b
+  except (TypeError, ValueError):
+    return ('пиши цифрами')
+
+
+def matatahacuna(c, d):
+  try:
+    return c * d
+  except (TypeError, ValueError):
+    return ('пиши цифрами')
